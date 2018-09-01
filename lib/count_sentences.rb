@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    if self.scan(/\w+\.\z/).nil?
+    if self.match(/\w+\.\z/).nil?
       return false
     else
       return true
