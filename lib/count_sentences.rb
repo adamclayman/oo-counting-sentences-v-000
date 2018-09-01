@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-    self.match(/\w+\./).count
+    self.match(/\w+\./).length
   end
 end
