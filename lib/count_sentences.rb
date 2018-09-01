@@ -7,7 +7,7 @@ class String
   end
 
   def question?
-    self.match(/\w+?\z/).nil? ? false : true
+    self.match(/\w+\?\z/).nil? ? false : true
   end
 
   def exclamation?
