@@ -4,6 +4,10 @@ class String
 
   def sentence?
     if self.scan(/\w+\.\z/).nil?
+      return false
+    else
+      return true
+    end
   end
 
   def question?
