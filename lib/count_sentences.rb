@@ -11,7 +11,7 @@ class String
   end
 
   def exclamation?
-
+    self.match(/\w+!\z/)
   end
 
   def count_sentences
