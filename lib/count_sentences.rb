@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-    self.scan(/\w+\W+{1,2}/) == nil ? 0 : self.scan(/\w+\./).length
+    self.scan(/\w+[.!?]+{1,2}/) == nil ? 0 : self.scan(/\w+\./).length
   end
 end
